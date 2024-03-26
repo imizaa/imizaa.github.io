@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textber{
+ display: flex;
+ font-size: 40px;
+ justify-content: center;
+ 
+ padding: 2%;
+}
+textber1{
+display: flex;
+font-size: 40px;
+justify-content: center;
+
+padding: 2%;
+}
+nav {
+ display: flex;
+ justify-content: space-around;
+
+ height: 75%;
+}
+#map {
+ display: flex;
+ justify-content: space-between;
+ border:  1px solid rgb(0, 0, 0) ;
+ width: 100%;
+ height: 100%;
+
+}
+
+textoj {
+ 
+ 
+ font-size: 30px;
+ display: flex;
+ flex-direction: column;
+ border:  1px solid rgb(0, 0, 0) ;
+ width: 50%;
+
+}
+textoj2 {
+ border:  1px solid rgb(0, 0, 0) ;
+ width: 1%;
+
+}
+boxdata {
+font-size: 30px;
+ display: flex;
+ border:  1px solid rgb(0, 0, 0) ;
+ 
+}
+dataA {
+
+    font-size: 30px;
+ display: flex;
+ border:  1px solid rgb(0, 0, 0) ;
+ width: 80%;
+
+}
+dsi1 {
+ display: flex;
+ justify-content: space-around;
+ background-color: #eeeeee;
+
+ padding-bottom: 2.5%;
+ padding-top: 2.5%;
+
+}
+dsi {
+ background-color: #eeeeee;
+ display: flex;
+ justify-content: space-between;
+
+
+
+}
+kill1{
+ 
+ display: flex;
+ padding-top:1% ;
+
+ padding-right:10% ;
+ font-size: 15px;
+ 
+}
+#data{
+font-size: 40px;
+
+
+}
+kill{
+ 
+
+ padding-left:7% ;
+}
+code {
+
+ justify-content: space-evenly;
+ display: flex;
+ 
+border:  1px solid rgb(0, 0, 0) ;
+
+}
+
+kill5{
+ 
+ font-size: 25px;
+ background-color:rgb(58, 204, 255);
+
+ padding-right:3% ;
+ }
+kill6{
+ font-size: 25px;
+ background-color: rgba(146, 209, 79);
+ 
+ padding-right:3% ;
+ 
+}
+kill7{
+ font-size: 25px;
+ background-color: rgba(255, 255, 0);
+ 
+ padding-right:1% ;
+}
+kill8{
+ font-size: 25px;
+ background-color: rgba(255, 162, 0);
+
+ padding-right:1% ;
+ 
+}
+kill9{
+ font-size: 25px;
+ background-color: rgba(255, 59, 60);
+
+ padding-right:1% ;
+}
+
+a{font-size: 30px;}
+
+@media only screen and (max-width: 1200px) {
+  
+  textber{
+    display: flex;
+    font-size: 40px;
+    
+    justify-content: center;
+    
+    padding: 2%;
+    
+  }textber1{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 2%;
+    
+  }
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    border:  1px solid rgb(0, 0, 0) ;
+    height: 150%;
+  }
+  textoj{
+    width: 100%;
+    height: 200%;
+  }
+  
+  #map {
+    display: flex;
+    justify-content: space-between;
+    border:  1px solid rgb(0, 0, 0) ;
+    width: 100%;
+    height: 1000%;
+  
+  }
+  op{display: flex;
+    justify-content: center;
+  }
+}

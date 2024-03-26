@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dis</title>
+<style type="text/css">
+  html {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    height: 100%;
+  }
+  #map {
+    height: 100%;
+  }
+  </style>
+  <script 
+    type="text/javascript"
+    src="https://api.longdo.com/map/?key=0ac5042a28a55855291ef893032aa7ff"
+  ></script>
+  <link rel="stylesheet" href="style.css">
+  
+  </head>
+<body onload="init();">
+  <textber><IMG SRC = "255px.png"width = "10%" height="10%"></textber>
+	<textber1> <op><tbR>ระบบติดตามคุณภาพอากาศ</tbR></op> <op>ภายในมหาวิทยาลัยราชภัฏเพชรบุรี</op></textber1>
+  
+<nav>
+	<textoj>
+    
+    <dsi1>
+      <a onClick= "dis()"> ค่าฝุ่น PM2.5 ที่วัดได้ในแต่ละพื้นที่ </a>
+      
+    </dsi1><br>
+   
+    <dsi>
+      <kill ><a onClick = "dis1()">
+        
+        บริเวณอาคารคณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม<br>
+     
+        
+      </a>
+      </kill>
+      <kill1>
+        <a  id="data"></a>
+      </kill1>
+    </dsi><br>
+    <dsi>
+      <kill>
+        
+        <a onClick = "zoomz()">
+        
+          บริเวณที่อาคาร xx<br>
+       
+          
+        </a>
+      </kill>
+      <kill1>
+        <a > xxx g/m<sup>3</sup></a>
+      </kill1>
+    </dsi><br>
+    <dsi>
+      <kill>
+        <a onClick = "dis()">
+        
+          บริเวณที่อาคาร xx<br>
+       
+          
+        </a>
+      </kill>
+      <kill1>
+        <a > xxx g/m<sup>3</sup></a>
+      </kill1>
+    </dsi><br>
+
+	</textoj>
+  <textoj2></textoj2>
+  <textoj>
+    <code>
+      <kill5>
+        
+        ดีมาก<br>
+        0-25 μg/m<sup>3</sup>
+   
+      </kill5>
+      <kill6>
+        ดี <br>
+       
+        26-37 μg/m<sup>3</sup>
+      
+      </kill6>
+      <kill7>
+        ปานกลาง<br>
+   
+        38-50 μg/m<sup>3</sup>
+     
+      </kill7>
+      <kill8>
+         เริ่มมีผลต่อสุขภาพ <br>
+       
+        51-90 μg/m<sup>3</sup>
+    
+      </kill8>
+      <kill9>
+        มีผลต่อสุขภาพ <br>
+        
+        +91 μg/m<sup>3</sup>
+      
+      </kill9>
+    </code>
+    
+      <div id="map"></div>
+    </textoj>
+  
+</nav> 
+<script src="scriptmap.js"></script>
+ </body>
+</html>
