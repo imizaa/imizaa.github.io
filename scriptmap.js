@@ -114,7 +114,7 @@ fetch("https://script.google.com/macros/s/AKfycbzvOFLpyGyGBG6Q6kclBOMJiKO0flJzFV
   let Y = DateNew.getFullYear();
   let Mo = DateNew.getMonth();
   let D = DateNew.getDate();
-  let H = DateNew.getHours()-1;
+  let H = DateNew.getHours()-2;
   let M = DateNew.getMinutes();
 
   dateM = new Date(Y,Mo,D,H,M); /// เวลาที่จุดเริ่มช่วงนับ
