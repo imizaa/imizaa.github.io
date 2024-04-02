@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+textber{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  
+  padding: 2%;
+ }
+ textber1{
+ display: flex;
+ font-size: 40px;
+ justify-content: center;
+ 
+ padding: 2%;
+ }
+ #map {
+  display: flex;
+  justify-content: space-between;
+  border:  1px solid rgb(0, 0, 0) ;
+  height: 500px;
+
+}
+pa{
+  font-size: 40px;
+}
